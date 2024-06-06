@@ -1,30 +1,33 @@
+.testElement {
+  background-color: yellow;
+  height: 50px;
+  border: solid 2px;
+}
+.button {
+  font-size: large;
+}
 .container {
   display: flex;
-  height: 100vh; /* Đặt chiều cao của container để dễ dàng thấy sự căn chỉnh */
+  height: 90vh; /* Đặt chiều cao của container để dễ dàng thấy sự căn chỉnh */
   border: 2px solid #000; /* Để dễ thấy container */
 }
 
 .container.center {
   justify-content: center; /* Căn giữa theo trục chính (ngang) */
-  align-items: center; /* Căn giữa theo trục chéo (dọc) */
 }
 
 .container.start {
   justify-content: flex-start; /* Căn về phía đầu theo trục chính */
-  align-items: flex-start; /* Căn về phía đầu theo trục chéo */
 }
 
 .container.end {
   justify-content: flex-end; /* Căn về phía cuối theo trục chính */
-  align-items: flex-end; /* Căn về phía cuối theo trục chéo */
 }
 
 .container.space-between {
   justify-content: space-between; /* Căn đều các phần tử với khoảng cách giữa */
-  align-items: center; /* Căn giữa theo trục chéo */
 }
 
 .container.space-around {
   justify-content: space-around; /* Căn đều các phần tử với khoảng cách xung quanh */
-  align-items: center; /* Căn giữa theo trục chéo */
 }
