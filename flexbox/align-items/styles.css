@@ -1,6 +1,13 @@
 .testElement {
   background-color: yellow;
   border: solid 2px;
+  line-height: 75px;
+}
+
+#testElement1 {
+  background-color: yellow;
+  height: 50px;
+  border: solid 2px;
 }
 
 .button {
